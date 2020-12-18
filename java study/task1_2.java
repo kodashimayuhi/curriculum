@@ -6,7 +6,7 @@ public class task1_2 {
         String[] country = {"america", "korea", "japan"};
 
         // ② ①で作成した配列の要素数を出力してください。
-        System.out.println(+country.length);
+        System.out.println(country.length);
 
         /* ③下記の値を保持した、要素数3のStringクラスの配列strArrayを作成しなさい。
          *   1番目（先頭）の要素に 「りんご」 を代入
@@ -16,7 +16,6 @@ public class task1_2 {
          String[] strArray ={"りんご","もも","ぶどう"};
 
         // ④ ③で作成した配列の2番目の要素を出力しなさい。
-        strArray[1] ="もも";
         System.out.println(strArray[1]);
 
         /* ⑤下記の処理について、何をしているのかコメントを記入してください。
