@@ -4,7 +4,6 @@ public class task1_3 {
 
         // ① 5 と 10 を加算した値を代入する、変数 plus を作成しなさい。
         int plus =10+5;
-        plus = 10+5;
 
         // ② 20 から 7 を減算した値を代入する、変数 minus を作成しなさい。
         int minus =20-7;
