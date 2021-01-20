@@ -36,20 +36,20 @@ public class Study {
         // 問③ 上記の「calendar」を使用し、本日から1年2ヶ月15日先の日付を表示しなさい。
         // - この課題に関しては課題実施日によって結果が異なりますので、Wiki課題の画像とは結果が異なります。
         // - また、うるう年の場合は設定内容が正しくとも日付がズレて表示される可能性があります。
-        Calendar calendar1 = Calendar.getInstance();
-        calendar1.add(Calendar.YEAR, 1); 
-        System.out.println(calendar1.get(Calendar.YEAR));
         
-        calendar1.add(Calendar.MONTH, 3);
-        System.out.println(calendar1.get(Calendar.MONTH));
+        calendar.set(Calendar.YEAR, 2022); 
+        System.out.println(calendar.get(Calendar.YEAR));
         
-        calendar1.add(Calendar.DATE, 15);
-        System.out.println(calendar1.get(Calendar.DATE));
+        calendar.set(Calendar.MONTH, 3);
+        System.out.println(calendar.get(Calendar.MONTH));
+        
+        calendar.set(Calendar.DATE, 15);
+        System.out.println(calendar.get(Calendar.DATE));
         
         
         
         // うるう年判定
-        printLeapYear(calendar1.get(Calendar.YEAR));
+        printLeapYear(calendar.get(Calendar.YEAR));
     }
 
     /**
