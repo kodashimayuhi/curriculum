@@ -37,13 +37,13 @@ public class Study {
         // - この課題に関しては課題実施日によって結果が異なりますので、Wiki課題の画像とは結果が異なります。
         // - また、うるう年の場合は設定内容が正しくとも日付がズレて表示される可能性があります。
 
-        calendar.set(Calendar.YEAR, 2022);
+        calendar.add(Calendar.YEAR, 1);
         System.out.println(calendar.get(Calendar.YEAR));
 
-        calendar.set(Calendar.MONTH, 4);
-        System.out.println(calendar.get(Calendar.MONTH));
+        calendar.add(Calendar.MONTH, 2);
+        System.out.println(calendar.get(Calendar.MONTH) + 1);
 
-        calendar.set(Calendar.DATE, 5);
+        calendar.add(Calendar.DATE, 15);
         System.out.println(calendar.get(Calendar.DATE));
 
 
