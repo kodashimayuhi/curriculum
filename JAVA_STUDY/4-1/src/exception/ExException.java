@@ -65,8 +65,7 @@ public class ExException {
 			 int[] array = {1, 2, 3};
 			 System.out.print(array[5]);
 		 }catch(ArrayIndexOutOfBoundsException e) {
-			 int[] array = {1, 2, 3};
-			 System.out.print(array[1]);
+			 System.out.println(e);
 		 }
 	 break;
 	 case CONST_EXCEPTION_TRIGER_CAST:
