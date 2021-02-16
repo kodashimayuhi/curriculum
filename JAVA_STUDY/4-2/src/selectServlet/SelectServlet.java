@@ -18,11 +18,11 @@ public class SelectServlet extends HttpServlet {
     public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws IOException, ServletException {
         request.setCharacterEncoding("UTF-8");
-        // 問① select.htmlから渡された値を受け取るために下記を修正しましょう。     
+        // 問① select.htmlから渡された値を受け取るために下記を修正しましょう。
         String value = request.getParameter("month");
         response.setContentType("text/html; charset=UTF-8");
         PrintWriter out = response.getWriter();
         // 問② エビデンスと同じ表示になるように修正しましょう。
-        out.println("今は2月です");
+        out.println("今は" + value + "月です");
     }
 }
